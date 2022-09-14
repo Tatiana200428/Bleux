@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+header nav {
+    background: #1E172F;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav button {
+    background: linear-gradient(to right, #8640D5, #047ED5);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin-right: 2px;
+    font-size: 15px;
+}
+
+.redes i {
+    margin: 5px;
+}
+
+.control1 {
+    background: white;
+    color: palevioletred;
+    border: none;
+    padding: 10px;
+    width: 160px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.control2 {
+    background: #2E2550;
+    color: white;
+    border: 1px solid white;
+    padding: 9px;
+    width: 120px;
+    border-radius: 3px;
+
+
+}
+
+.main h1 {
+    margin-bottom: 20px;
+}
+
+.main p {
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.nav a {
+    font-size: 17px;
+}
+
+header a {
+    color: #7C7785;
+    text-decoration: none;
+    margin: 10px
+}
+
+main {
+    background: #2E2550;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.main {
+    width: 40%;
+    justify-content: center;
+    padding: 170px 20px 170px 170px;
+
+}
+
+
+.botones {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.cell {
+    background-image: url(/images/otoño.jpg);
+    width: 50%;
+    padding: 30px;
+    background-size: cover;
+}
+
+.iphone {
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+    padding-top: 90px;
+}
+
+h2 {
+    text-align: center;
+    color: #F41486;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.pricing {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    padding-top: 20px
+}
+
+.imgfun {
+    width: 40%;
+}
+
+.precios {
+    background: lightgray;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.ll {
+    font-size: 40px;
+}
+
+.numeros {
+    font-family: 20px;
+}
+
+
+.imgfun img {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.fonctionnalites p {
+    width: 45%;
+}
+
+.fonctionnalites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F1F2F7;
+    font-size: 20px;
+    padding: 60px;
+
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titulo {
+    margin-bottom: 35px;
+}
+
+.navegation p {
+    padding-bottom: 20px;
+    color: #7C7785;
+}
+
+.h2 {
+    background: #F1F2F7;
+}
+
+.fa-regular {
+    color: #F41486;
+}
+
+.main h1 {
+    font-size: 70px;
+}
+
+.navegation {
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.navegation h3 {
+    color: #F41486;
+    padding-bottom: 20px;
+}
+
+.plans {
+    background: #2E2550;
+    color: white;
+    padding: 50px;
+}
+
+.todora {
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.plans p {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.titi {
+    color: #7C7785;
+    padding: 30px 0px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+
+}
+
+
+.one {
+    background: white;
+    padding: 20px;
+    color: #1E172F;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.one p {
+    margin: 15px 0;
+}
+
+.cuadros {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.ara1 {
+    background: #2E2550;
+    border: none;
+    padding: 15px;
+    border-radius: 7px;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.ara {
+    background: #F41486;
+    border: none;
+    padding: 15px;
+    border-radius: 7px;
+    color: white;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+footer {
+    color: black;
+    height: 50px;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.lite {
+    color: #F41486;
+}
+
+.rosado {
+    color: #F41486;
+}
+
+
+
+.div {
+    display: flex;
+    justify-content: center;
+}
+
+/* --------------------------------------------------------------------- */
+
+@media screen and (max-width:1200px) {
+
+
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main {
+        padding: 30px 10px 40px 100px;
+        width: 70%;
+    }
+
+    .main h1 {
+        font-size: 40px;
+    }
+
+    .main p {
+        font-size: 20px;
+    }
+
+    .botones {
+        display: flex;
+        flex-wrap: nowrap;
+        display: inline-block;
+
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .cell {
+        width: 30%;
+    }
+
+    .iphone {
+        width: 150px;
+        height: auto;
+        justify-content: center;
+    }
+
+    .cuadros {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .principal {
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .navegation {
+        width: 150%;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .plans p {
+        width: 100%;
+    }
+
+    .pricing {
+        font-size: 40px;
+    }
+
+    .one {
+        padding: 8px;
+    }
+
+    .precios {
+        width: 93%;
+    }
+
+    footer {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .imgfun {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main {
+        padding: 30px 10px 40px 100px;
+        width: 70%;
+    }
+
+    .main h1 {
+        font-size: 40px;
+    }
+
+    .main p {
+        font-size: 20px;
+    }
+
+    .botones {
+        display: flex;
+        flex-wrap: nowrap;
+        display: inline-block;
+
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .cell {
+        width: auto;
+    }
+
+    .iphone {
+        width: 150px;
+        height: auto;
+        justify-content: center;
+    }
+
+    .cuadros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .principal {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .navegation {
+        width: 150%;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .plans p {
+        width: 100%;
+    }
+
+    .pricing {
+        font-size: 40px;
+    }
+
+    .one {
+        padding: 8px;
+    }
+
+    .precios {
+        width: 93%;
+    }
+
+    footer {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .imgfun {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+
+}
